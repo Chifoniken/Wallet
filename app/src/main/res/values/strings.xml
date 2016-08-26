@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Кошелёк.уз</string>
+
+    <string name="action_settings">Изменить данные</string>
+    <string name="action_history">История</string>
+    <string name="action_feedback">Написать отзыв</string>
+
+    <string name="available_today">Доступно на сегодня</string>
+
+    <string name="settings">Настройки</string>
+
+    <string name="add_spent">Добавить расход</string>
+    <string name="costs">Расход</string>
+    <string name="save">Сохранить</string>
+
+    <string name="cash">Наличные</string>
+    <string name="card">Карта</string>
+    <string name="all">Все</string>
+
+    <string name="set_budget">Установите ваш бюджет</string>
+    <string name="budget_period">На период до</string>
+    <string name="hint_from_today">(начиная с сегодняшнего дня)</string>
+    <string name="period">Период</string>
+    <string name="date">Дата</string>
+    <string name="date_from">От</string>
+    <string name="date_till">До</string>
+
+    <string name="language">Язык</string>
+    <string name="rus">Русский</string>
+    <string name="eng">English</string>
+    <string name="uzb">O\'zbekcha</string>
+
+    <string name="spent">Потрачено</string>
+    <string name="available">Доступно</string>
+
+    <string name="sum">Сумма</string>
+    <string name="category">Категория</string>
+    <string name="desc">Описание</string>
+    <string name="add">Добавить</string>
+
+    <string name="show_details">Показать детали</string>
+    <string name="hide_details">Скрыть детали</string>
+
+    <string name="sum_hint">Введите сумму</string>
+
+    <!--Categories-->
+    <string name="other">Прочее</string>
+    <string name="food">Еда</string>
+    <string name="products">Продукты</string>
+    <string name="transport">Транспорт</string>
+    <string name="communication">Связь</string>
+    <string name="house">Жилье</string>
+    <string name="entertainment">Развлечения</string>
+
+</resources>

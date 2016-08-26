@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sum"
+            android:layout_gravity="center_horizontal"
+            android:hint="@string/sum"
+            android:inputType="number"
+            android:imeOptions="actionDone"
+            android:textColor="@color/colorAppText" />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cash"
+        android:id="@+id/cash"
+        android:checked="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:textColor="@color/colorAppText" />
+
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/card"
+        android:id="@+id/card"
+        android:checked="false"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:textColor="@color/colorAppText" />
+
+
+    <com.vovasoft.wallet.Widgets.LabelledSpinner
+        android:id="@+id/category_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        custom:labelText="@string/category"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp" />
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/info"
+            android:layout_gravity="center_horizontal"
+            android:hint="@string/desc"
+            android:inputType="textCapSentences"
+            android:imeOptions="actionDone"
+            android:textColor="@color/colorAppText" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add"
+        android:id="@+id/add_spent_btn"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:textColor="#fff"
+        android:background="@color/colorAccent"
+        android:paddingLeft="32dp"
+        android:paddingRight="32dp"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp" />
+
+
+</LinearLayout>

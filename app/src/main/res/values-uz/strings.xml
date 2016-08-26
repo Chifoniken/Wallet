@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Кошелёк.уз</string>
+
+    <string name="action_settings">Malumotlarni o\’zgartirish</string>
+    <string name="action_history">Hikoya</string>
+    <string name="action_feedback">Baho berish</string>
+
+    <string name="available_today">Bugungi kunga ochiq bolgan</string>
+
+    <string name="settings">Sozlashlar</string>
+
+    <string name="add_spent">Sarfni qoshish</string>
+    <string name="costs">Sarf</string>
+    <string name="save">Saqlang</string>
+
+    <string name="cash">Naqd</string>
+    <string name="card">Kartochka bo\’yicha</string>
+    <string name="all">Hammasi</string>
+
+    <string name="set_budget">Byudjetizni o’rnating</string>
+    <string name="budget_period">Davrgacha</string>
+    <string name="hint_from_today">(bugundan boshlab)</string>
+    <string name="period">Davr</string>
+    <string name="date">Sana</string>
+    <string name="date_from">Kundan</string>
+    <string name="date_till">Kungacha</string>
+
+    <string name="language">Til</string>
+    <string name="rus">Русский</string>
+    <string name="eng">English</string>
+    <string name="uzb">O\'zbekcha</string>
+
+    <string name="spent">Sarflangan</string>
+    <string name="available">Mavjud</string>
+
+    <string name="sum">Jami</string>
+    <string name="category">Toifa</string>
+    <string name="desc">Sharh</string>
+    <string name="add">Qoshing</string>
+
+    <string name="show_details">Tafsilotlarni korsatish</string>
+    <string name="hide_details">Tafsilotlarni yashirish</string>
+
+    <string name="sum_hint">Miqdorini kiriting</string>
+
+    <!--Categories-->
+    <string name="other">Boshqa</string>
+    <string name="food">Ovqat</string>
+    <string name="products">Xarajatlar</string>
+    <string name="transport">Transport</string>
+    <string name="communication">Aloqa</string>
+    <string name="house">Kommunal</string>
+    <string name="entertainment">O\'yin-kulgi</string>
+
+</resources>
